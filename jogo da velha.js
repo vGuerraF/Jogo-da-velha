@@ -83,7 +83,7 @@ jogo: while (true) {
           if(contador1 > contador2) {
           console.log(`\nO jogador 1 venceu com ${contador1} ponto(s)\n`);
           break jogo;
-        } else if(contador2 > contador2){
+        } else if(contador2 > contador1){
           console.log(`\nO jogador 2 venceu com ${contador2} ponto(s)\n`);
           break jogo;
         } else{
@@ -174,7 +174,7 @@ jogo: while (true) {
             if(contador1 > contador2) {
             console.log(`\nO jogador 1 venceu com ${contador1} ponto(s)\n`);
             break jogo;
-          } else if(contador2 > contador2){
+          } else if(contador2 > contador1){
             console.log(`\nO jogador 2 venceu com ${contador2} ponto(s)\n`);
             break jogo;
           } else{
