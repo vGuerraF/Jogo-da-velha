@@ -106,9 +106,17 @@ jogo: while (true) {
         if (retornar == `sim`) {
           continue jogo;
         } else {
-          console.log(`O jogador 1 venceu com ${contador1} ponto(s)\n`);
+          if(contador1 > contador2) {
+          console.log(`\nO jogador 1 venceu com ${contador1} ponto(s)\n`);
           break jogo;
+        } else if(contador2 > contador1){
+          console.log(`\nO jogador 2 venceu com ${contador2} ponto(s)\n`);
+          break jogo;
+        } else{
+          console.log(`\nOS jogadores empataram! Ambos com ${contador1} ponto(s)\n`)
         }
+        break jogo;
+      }
       }
     }
 
